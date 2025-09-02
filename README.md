@@ -1,6 +1,8 @@
 # palantir-tranning
 My Palantir Tranning Materials
 
+## Videos Tranning
+[You tube Ontologize Chanel](https://www.youtube.com/@ontologize)
 
 ## Data Integration
 The platform enables data federation, which allows the use of existing data platforms and assets without the need for duplication.
