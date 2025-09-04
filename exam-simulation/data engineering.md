@@ -115,6 +115,21 @@ Andre tips: kinetic elements = dynamic components that enable real-time interact
 - c. Debian 10
 - d. Red Hat Enterprise Linux 8
 
+
+#### 16.  What actions are performed when the ModelOutput.publish() method is called in Foundry's Code Repositories? Select two:
+
+- a. It serializes the model using the ModelAdapter.save() method.
+- b. It initializes the model adapter with the fresh model.
+- c. It runs the model inference.
+- d. It creates a new model version.
+
+#### 16.Which of the following statements correctly describes the behavior of the FileSystem.open() method in Foundry Transforms?
+
+- a. it allows random access to any part of that file
+- b. it automatically infers the file schema upon opening
+- c. it returns a writable stream by default
+- d. it provides a read-only stream without support for seek or tell methods
+
 ### Answers
 
  1. ✅ **d** Direct Connection
@@ -132,4 +147,5 @@ Andre tips: kinetic elements = dynamic components that enable real-time interact
  13. ✅ **d** Code Workspaces
  14. ✅ **b** Actions, Functions
  15. ✅ **d** Red Hat Enterprise Linux 8
-
+ 16. ✅ **a** It serializes the model using the ModelAdapter.save() method. ✅ **d** It creates a new model version
+ 17. ✅ **d** it provides a read-only stream without support for seek or tell methods
