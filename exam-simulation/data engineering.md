@@ -123,13 +123,36 @@ Andre tips: kinetic elements = dynamic components that enable real-time interact
 - c. It runs the model inference.
 - d. It creates a new model version.
 
-#### 16.Which of the following statements correctly describes the behavior of the FileSystem.open() method in Foundry Transforms?
+#### 17.Which of the following statements correctly describes the behavior of the FileSystem.open() method in Foundry Transforms?
 
 - a. it allows random access to any part of that file
 - b. it automatically infers the file schema upon opening
 - c. it returns a writable stream by default
 - d. it provides a read-only stream without support for seek or tell methods
 
+#### 18. Which of the following are recommended practices for chaining expressions in PySpark to enhance code readability? Select two.
+
+- a. isolate each logical group of transformations into separate code blocks.
+- b. chain as many expressions as possible for conciseness.
+- c. use backslashes (\) for line breaks in chains.
+- d. limit chains to a maximum of 5 statements.
+- e. extract complex logic into separate functions.
+- f. nest multiple chains within a single expression block.
+
+#### 19. You need to inject a TransformContext into your Transform's compute function to access the current Spark session. How should you define the parameters of your compute function?
+
+- a. def compute(context, input, output):
+- b. def compute(input, output):
+- c. def compute(input, output, ctx):
+- d. def compute(ctx, input, output):
+
+#### 20 .You have a dataset in the Foundry filesystem that includes JPEG and PDF files, and you want to upload only the PDF files to a media set. Which parameter can you use in the put_dataset_files() method to achieve this?
+
+- a. upload_specific_types=['pdf']
+- b. only_upload_matching_files=True
+- c. filter_schema=True
+- d. ignore_items_not_matching_schema=True
+  
 ### Answers
 
  1. ✅ **d** Direct Connection
@@ -149,3 +172,6 @@ Andre tips: kinetic elements = dynamic components that enable real-time interact
  15. ✅ **d** Red Hat Enterprise Linux 8
  16. ✅ **a** It serializes the model using the ModelAdapter.save() method. ✅ **d** It creates a new model version
  17. ✅ **d** it provides a read-only stream without support for seek or tell methods
+ 18. ✅ **a** solate each logical group of transformations into separate code blocks, ✅ **e** extract complex logic into separate functions.
+ 19. ✅ **d** def compute(ctx, input, output):
+ 20. ✅ **d**  ignore_items_not_matching_schema=True
