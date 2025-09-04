@@ -1,18 +1,18 @@
- 1. You are responsible for integrating data from an Azure storage account into Foundry. To ensure optimal uptime and performance without managing additional infrastructure, which connection method should you configure?
+#### 1. You are responsible for integrating data from an Azure storage account into Foundry. To ensure optimal uptime and performance without managing additional infrastructure, which connection method should you configure?
 
 a. Third-Party Sync Tool
 b. Agent-based Connection
 c. Manual Network Tunneling
 d. Direct Connection
 
- 2. What is the minimum recommended amount of RAM for a Foundry agent host?
+#### 2. What is the minimum recommended amount of RAM for a Foundry agent host?
 
  a. 12 GB
  b. 8 GB
  c. 32 GB
  d. 16 GB
 
- 3. Which of the following are part of securing a Foundry agent host? Select two.
+#### 3. Which of the following are part of securing a Foundry agent host? Select two.
 
  a. Allow all inbound traffic to facilitate connectivity.
  b. Allow network traffic only from specific IPs.
@@ -21,14 +21,14 @@ d. Direct Connection
  e. Ensure the agent host can talk to Palantir.
  f. Configure the firewall to block all traffic except to desired destinations.
 
- 4. A data engineer needs to integrate data from various legacy systems into Palantir AIP without modifying the existing data formats. Which feature of Palantir AIP facilitates this seamless integration?
+#### 4. A data engineer needs to integrate data from various legacy systems into Palantir AIP without modifying the existing data formats. Which feature of Palantir AIP facilitates this seamless integration?
 
  a. Metadata Services
  b. Virtual Tables
  c. REST Interfaces
  d. Palantir HyperAuto Pipelines
 
- 5. Which of the following actions can be performed after successfully syncing a table range from a Fusion sheet to a dataset in Foundry? Select three.
+#### 5. Which of the following actions can be performed after successfully syncing a table range from a Fusion sheet to a dataset in Foundry? Select three.
 
  a. Change the branch of the dataset.
  b. Modify the export column type to match desired data types.
@@ -37,14 +37,14 @@ d. Direct Connection
  e. Automatically merge changes from multiple Fusion sheets.
  f. Rename the synced dataset.
 
- 6. Which open data format is used by default for transformed data in Palantir AIP to ensure compatibility with existing data architectures?
+#### 6. Which open data format is used by default for transformed data in Palantir AIP to ensure compatibility with existing data architectures?
 
  a. JSON
  b. Parquet
  c. CSV
  d. Avro
 
- 7. Which of the following are responsibilities of Action types in the Palantir Ontology? Select two.
+#### 7. Which of the following are responsibilities of Action types in the Palantir Ontology? Select two.
 
  a. Provide object type polymorphism
  b. Define link types
@@ -53,20 +53,49 @@ d. Direct Connection
  e. Orchestrate decision-making processes
  f. Define object properties
 
- 8. You are responsible for syncing a specific range of data from a Fusion spreadsheet to a dataset in Foundry to be used by Contour. After selecting the desired table range and initiating the sync, what must you ensure to avoid synchronization issues?
+#### 8. You are responsible for syncing a specific range of data from a Fusion spreadsheet to a dataset in Foundry to be used by Contour. After selecting the desired table range and initiating the sync, what must you ensure to avoid synchronization issues?
 
  a. Ensure that the dataset has Viewer permissions.
  b. Export the synced data as a CSV file immediately after syncing.
  c. Only use table sync without any sheet sync in the Fusion sheet.
  d. Use both sheet sync and table sync within the same Fusion sheet.
 
-## Answers
- 1. d Direct Connection
- 2. d 16 GB
- 3. e Ensure the agent host can talk to Palantir,  f Configure the firewall to block all traffic except to desired destinations.
- 4. b Virtual Tables
- 5. a Change the branch of the dataset,  b Modifify the export column type to match desired data types, f Rename the sync dataset
- 6. b Parquet
- 7. c Capture data from operatos, e Orchestrate decision-making processes
- 8. c Only use table sync without any sheet sync in the Fusion sheet.
+#### 9. Which role is required to configure network egress policies in Foundry's managed SaaS platform?
+
+a. Information Security Officer
+b. User
+c. Project Admin
+d. Data Pipeline Developer
+
+#### 10. Which of the following components enhance security interoperability within Palantir AIP?
+
+a. SAML integration for authentication
+b. Using internal scripts for authorization
+c. Role-based permissions
+d. Proprietary authentication systems
+e. Permissions managed through JSON files
+f. Integration with Active Directory
+
+#### 11. Which of the following practices are essential when implementing pipelines that back ontology objects and links in Foundry? Select two.
+
+a. Aligning pipeline logic with the ontology's entity and relationship definitions.
+b. Using only default transformation settings without customization.
+c. Avoiding documentation to keep the pipeline simple.
+d. Manually verifying each pipeline run for consistency.
+e. Ensuring that data transformations preserve the integrity of semantic relationships.
+f. Implementing error handling to manage discrepancies between data sources and ontology requirements.
+
+### Answers
+
+ 1. ✅ **d** Direct Connection
+ 2. ✅ **d** 16 GB
+ 3. ✅ **e** Ensure the agent host can talk to Palantir,  **f** Configure the firewall to block all traffic except to desired destinations.
+ 4. ✅ **b** Virtual Tables
+ 5. ✅ **a** Change the branch of the dataset,  **b** Modifify the export column type to match desired data types, **f** Rename the sync dataset
+ 6. ✅ **b** Parquet
+ 7. ✅ **c** Capture data from operatos, e Orchestrate decision-making processes
+ 8. ✅ **c** Only use table sync without any sheet sync in the Fusion sheet.
+ 9. ✅ **a** Information Security Officer
+ 10. ✅ **a** SAML integration for authentication,  **c** Role-based permissions, **f** Integration with Active Directory
+ 11. ✅ **a** Aligning pipeline logic with the ontology's entity and relationship definitions , ✅ **e** Ensuring that data transformations preserve the integrity of semantic relationships
 
