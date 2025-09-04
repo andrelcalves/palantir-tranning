@@ -1,9 +1,9 @@
 #### 1. You are responsible for integrating data from an Azure storage account into Foundry. To ensure optimal uptime and performance without managing additional infrastructure, which connection method should you configure?
 
-a. Third-Party Sync Tool 
-b. Agent-based Connection 
-c. Manual Network Tunneling 
-d. Direct Connection 
+- a. Third-Party Sync Tool 
+- b. Agent-based Connection 
+- c. Manual Network Tunneling 
+- d. Direct Connection 
 
 #### 2. What is the minimum recommended amount of RAM for a Foundry agent host?
 
