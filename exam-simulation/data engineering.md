@@ -168,7 +168,60 @@ Andre tips: kinetic elements = dynamic components that enable real-time interact
 - d. Changing the programming language of the transform on the fly
 - e. Editing the source code directly from the debugger
 - f. Navigating frames to examine variables
-  
+
+### 23. Which type of pipeline in Foundry typically has the lowest compute cost?
+
+- a. all have similar compute costs
+- b. streaming
+- c. batch
+- d. incremental
+
+### 24. In Foundry, which schema field type requires specifying both precision and scale parameters?
+
+- a. ARRAY
+- b. DECIMAL
+- c. DATE
+- d. STRING
+
+### 25. Which of the following are stages included in the condaPackRun task used in CI checks for a Python repository in Foundry? Select three.
+
+- a. Run unit tests using PyTest
+- b. Upload artifacts to a remote server
+- c. Download and extract all packages in the solved environment
+- d. Compile the Python source code
+- e. Link packages into the environment
+- f. Verify package contents
+
+### 26. Which of the following Python libraries is NOT recommended for training models in Foundry's Code Repositories?
+
+- a. scikit-learn
+- b. SparkML
+- c. PyTorch
+- d. TensorFlow
+
+### 27. Which of the following are recommended practices for refactoring complex logical operations in PySpark transformations?
+
+- a. Chain multiple 'filter()' and 'withColumn()' calls in a single line
+- b. Extract complex logic into separate functions.
+- c. Use deeply nested parentheses to encapsulate logical operations.
+- d. Group logic into named variables.
+- e. Keep logic expressions inside the same code block to 3 expressions at most.
+- f. Duplicate code for better readability.
+
+### 28. You are developing a Transform in Foundry that processes input dataframes using PySpark and needs to output multiple datasets based on different filters. Which decorator should you use to define this Transform?
+
+- a. @ transform_df
+- b. @ transform_pandas
+- c. @ transform_file
+- d. @ transform
+
+### 29. You are performing a left join between two DataFrames in PySpark, but realize that the right DataFrame may have multiple matches for some keys, leading to duplicate rows in the output. According to the style guide, what should you do to prevent this 'join explosion'?
+
+- a. Use .dropDuplicates() after the join
+- b. Switch to an inner join to avoid duplicates
+- c. Ensure the join key in the right DataFrame is unique
+- d. Use a right join instead of a left join
+
 ### Answers
 
  1. ✅ **d** Direct Connection
@@ -193,4 +246,11 @@ Andre tips: kinetic elements = dynamic components that enable real-time interact
  20. ✅ **d**  ignore_items_not_matching_schema=True
  21. ✅ **b**  add a dependency on 'transforms-media' in your code repository
  22. ✅ **a** Running PySpark commands in the console, ✅ **b** Previewing intermediate dataframes at breakpoints, ✅ **f** Navigating frames to examine variables
-
+ 23. ✅ **d** incremental
+ 24. ✅ **b** DECIMAL
+ 25. ✅ **c** Download and extract all packages in the solved environment, ✅ **e** Link packages into the environment, ✅ **f** Verify package contents
+ 26. ✅ **b** SparkML
+ 27. ✅ **b** Extract complex logic into separate functions, ✅ **d** Group logic into named variables,  ✅ **e** Keep logic expressions inside the same code block to 3 expressions at most.
+ 28. ✅ **d** @ transform
+ 29. ✅ **c** Ensure the join key in the right DataFrame is unique
+ 30. 
