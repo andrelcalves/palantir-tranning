@@ -152,6 +152,22 @@ Andre tips: kinetic elements = dynamic components that enable real-time interact
 - b. only_upload_matching_files=True
 - c. filter_schema=True
 - d. ignore_items_not_matching_schema=True
+
+#### 21 .What is the first step to set up media sets in your Python transform in Foundry?
+
+- a. Initialize media sets using the @ initialize_media_set decorator
+- b. add a dependency on 'transforms-media' in your code repository
+- c. create media sets directly in the Python code
+- d. use the @ media_set_input decorator to specify media sets
+
+#### 22. Which of the following features can you utilize within Foundry's debugger panel while debugging a Python transform? Select three.
+
+- a. Running PySpark commands in the console
+- b. Previewing intermediate dataframes at breakpoints
+- c. Automatically fixing variable values
+- d. Changing the programming language of the transform on the fly
+- e. Editing the source code directly from the debugger
+- f. Navigating frames to examine variables
   
 ### Answers
 
@@ -175,3 +191,6 @@ Andre tips: kinetic elements = dynamic components that enable real-time interact
  18. ✅ **a** solate each logical group of transformations into separate code blocks, ✅ **e** extract complex logic into separate functions.
  19. ✅ **d** def compute(ctx, input, output):
  20. ✅ **d**  ignore_items_not_matching_schema=True
+ 21. ✅ **b**  add a dependency on 'transforms-media' in your code repository
+ 22. ✅ **a** Running PySpark commands in the console, ✅ **b** Previewing intermediate dataframes at breakpoints, ✅ **f** Navigating frames to examine variables
+
