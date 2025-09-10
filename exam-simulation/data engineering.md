@@ -917,48 +917,48 @@ Retention policies remove file references from the dataset view based on specifi
 
 48. When using the transform_df() decorator, what is the expected return type of the compute function?
 
-Python dictionary
-pandas.DataFrame
-pyspark.sql.DataFrame
-None
-pyspark.sql.DataFrame
+- a. Python dictionary
+- b. pandas.DataFrame
+- c. pyspark.sql.DataFrame
+- d. None
+✅  **c** pyspark.sql.DataFrame
 
 
-51. You are modeling different types of assets in your organization's Ontology, and some assets share common characteristics and behaviors. How can you achieve consistent modeling and interaction for these asset types?
+#### 53. You are modeling different types of assets in your organization's Ontology, and some assets share common characteristics and behaviors. How can you achieve consistent modeling and interaction for these asset types?
 
-Utilize Interfaces to describe the common shape and capabilities
-Define separate Object Types for each asset
-Use Link Types to connect asset types
-Create separate Functions for each asset behavior
-Utilize Interfaces to describe the common shape and capabilities
-
-
-53. You are tasked with identifying outdated datasets within a complex data pipeline in Foundry. Which feature of Data Lineage would you use to easily spot these out-of-date tables?
-
-Create pipeline snapshots to share with other users
-Expand or hide ancestors and descendants of datasets
-Visualize your pipeline through coloring
-Search to find datasets using Project, table, and column names
-Visualize your pipeline through coloring
+- a. Utilize Interfaces to describe the common shape and capabilities
+- b. Define separate Object Types for each asset
+- c. Use Link Types to connect asset types
+- d. Create separate Functions for each asset behavior
+✅  **a** Utilize Interfaces to describe the common shape and capabilities
 
 
-55. When implementing distributed processing for file-based transformations in Foundry, which step is essential to ensure that each executor can process assigned files independently?
+#### 54. You are tasked with identifying outdated datasets within a complex data pipeline in Foundry. Which feature of Data Lineage would you use to easily spot these out-of-date tables?
 
-Buffer all files into the driver's memory before distribution.
-Create a DataFrame of FileStatus objects and use flatMap to distribute processing.
-Serialize the TransformInput and TransformOutput objects.
-Use the seek method to access different parts of the file in parallel.
-Create a DataFrame of FileStatus objects and use flatMap to distribute processing.
+- a. Create pipeline snapshots to share with other users
+- b. Expand or hide ancestors and descendants of datasets
+- c. Visualize your pipeline through coloring
+- d. Search to find datasets using Project, table, and column names
+✅  **c** Visualize your pipeline through coloring
 
 
-60. Which of the following are key responsibilities of a pipeline maintainer in Foundry? Select two.
+#### 55. When implementing distributed processing for file-based transformations in Foundry, which step is essential to ensure that each executor can process assigned files independently?
+
+- a. Buffer all files into the driver's memory before distribution.
+- b. Create a DataFrame of FileStatus objects and use flatMap to distribute processing.
+- c. Serialize the TransformInput and TransformOutput objects.
+- d. Use the seek method to access different parts of the file in parallel.
+✅  **b** Create a DataFrame of FileStatus objects and use flatMap to distribute processing.
+
+
+#### 60. Which of the following are key responsibilities of a pipeline maintainer in Foundry? Select two.
 
 - a.Conducting user training sessions on pipeline usage
 - b.Designing new data source integrations for the pipeline
 - c.Setting up the technical aspects of pipeline monitoring
 - d.Debugging the pipeline when health checks fail
-- e.Setting up the technical aspects of pipeline monitoring
-- f.Debugging the pipeline when health
+✅  **c** Setting up the technical aspects of pipeline monitoring
+✅  **d** Debugging the pipeline when health checks fail
 
 
 
